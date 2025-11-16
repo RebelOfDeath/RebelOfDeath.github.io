@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Alex Johnson
+title: Roham Koohestani
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Roham
+last_name: Koohestani
 
 # Pronouns (optional)
-pronouns: he/him
+pronouns: ''
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: 🤖
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,150 +23,192 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Software Engineer · AI4SE Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: JetBrains Research | Human–AI Experience
+    url: 'https://lp.jetbrains.com/research/hax/'
+  - name: AISE Lab, TU Delft
+    url: 'https://malihehizadi.github.io/aise/'
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
-  - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: 'mailto:koohestaniroham@gmail.com'
+    label: Email
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/rohamkoohestani/
+  - icon: brands/github
+    url: https://github.com/RebelOfDeath
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://scholar.google.com/citations?user=xDkfR7UAAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0009-0000-1649-9596
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Large Language Models (LLMs) for Code & Software Artefacts
+  - Developer–AI Interaction & Usability Studies
+  - Trustworthy and Calibrated AI Assistance in IDEs
+  - Agentic AI Systems and Formal Methods for Software Development
+  - Program Synthesis, Code Completion, and Summarisation
+  - Benchmarking, Evaluation & Metrics in AI4SE
+  - Hyperdimensional Computing & Sequence Learning in Developer Workflows
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+  - area: BSc Computer Science & Engineering
+    institution: TU Delft
     icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+    date_start: 2023-09-01
+    date_end: 2026-02-28
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
+      Courses: Software Engineering; Algorithms & Data Structures; Machine Learning; Computer Networks; Computer Architecture; Databases; Web Technologies; Data Processing.
+      Expected graduation: Feb 2026.
+  - area: Minor in Mathematics
+    institution: University of Amsterdam
     icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+    date_start: 2025-09-01
+    date_end: ''
     summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
+      Topics: Number & Set Theory, Statistics, Differential Equations, Information Theory, Markov Chains.
+  - area: Natuur & Techniek
+    institution: Het College Weert
     icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+    date_start: 2020-08-01
+    date_end: 2023-07-01
+    summary: ''
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: Human–AI Experience Research Intern
+    company_name: JetBrains Research (Amsterdam)
+    company_url: ''
     icon: ''
-    date_start: 2020-01-01
+    date_start: 2025-04-01
     date_end: ''
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+      Leading research on calibration of LLM-based code-completion models inside JetBrains IDEs.
+      Designed user studies measuring how developers accept, trust, and act on AI model suggestions.
+      Collaborated across institutional lines to deliver empirical evidence on AI assistance in real workflows.
+      Co-authored publications and supported data-engineering pipelines for experiment logging, analysis, and visualisation.
+  - position: Research Assistant
+    company_name: AISE Lab, TU Delft
+    company_url: 'https://www.tudelft.nl/'
     icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+    date_start: 2025-01-01
+    date_end: ''
+    summary: |2-
+      Investigate novel architectures and fine-tuning methods for code-specialised language models.
+      Work on integration strategies for AI-assisted development environments—focusing on developer experience, cognitive load, and action sequencing.
+      Collaborate across lab and industry to build evaluation suites and prototype tooling.
+  - position: Scientific Developer
+    company_name: AISE Lab, TU Delft
+    company_url: 'https://www.tudelft.nl/'
+    icon: ''
+    date_start: 2024-07-01
+    date_end: 2025-01-31
+    summary: |2-
+      Contributed to research on LLMs4Code: built pipelines for data processing, model training, evaluation, and integration.
+      Supported published work on developer–AI interaction and empirical studies.
+      Worked closely with research leads on dataset curation and modeling decisions.
+  - position: Software Engineering Intern
+    company_name: Syntho B.V. (Amsterdam)
+    company_url: ''
+    icon: ''
+    date_start: 2023-09-01
+    date_end: 2024-06-30
+    summary: |2-
+      Evaluated synthetic-data generation methods and designed benchmarking experiments.
+      Developed a novel time-series synthetic-data generation method conditioned on metadata, contributing to the product roadmap.
+      Integrated ML research literature into production-oriented pipelines.
+  - position: High-School Research Intern
+    company_name: Syntho B.V. (Amsterdam)
+    company_url: ''
+    icon: ''
+    date_start: 2022-09-01
+    date_end: 2023-09-30
+    summary: |2-
+      Investigated bias-mitigation methods in synthetic-data generation for ML fairness.
+      Applied synthetic-data techniques to design controlled experiments for fairness and reliability in AI.
+      Gained experience in research project planning, result communication, and collaborative development.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming
     items:
-      - name: Python & PyTorch
+      - name: Python
         description: ''
         percent: 95
         icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+      - name: Kotlin/Java
         description: ''
         percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        icon: code-bracket
+      - name: C++
         description: ''
         percent: 70
-        icon: book-open
+        icon: code-bracket
+      - name: Haskell
+        description: ''
+        percent: 60
+        icon: code-bracket
+  - name: ML & AI
+    items:
+      - name: PyTorch, Transformers
+        description: ''
+        percent: 90
+        icon: chart-bar
+      - name: TensorFlow, scikit-learn
+        description: ''
+        percent: 80
+        icon: chart-bar
+      - name: Data (NumPy, pandas)
+        description: ''
+        percent: 90
+        icon: chart-bar
+  - name: Systems & Data
+    items:
+      - name: Spark, Flink, SQL
+        description: ''
+        percent: 75
+        icon: database
+      - name: Docker & Kubernetes
+        description: ''
+        percent: 80
+        icon: server-stack
+      - name: FastAPI, Bazel
+        description: ''
+        percent: 70
+        icon: wrench-screwdriver
+  - name: Tools & Workflows
+    items:
+      - name: Git, JetBrains IDEs, Jupyter
+        description: ''
+        percent: 90
+        icon: wrench-screwdriver
+      - name: LaTeX
+        description: ''
+        percent: 85
+        icon: document-text
 
 languages:
-  - name: English
+  - name: English — Professional proficiency
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: Dutch — Professional working proficiency
+    percent: 90
+  - name: Persian — Native
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+awards: []
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Roham Koohestani is a Software Engineer and AI4SE researcher based in The Hague, Netherlands. He studies Computer Science & Engineering at TU Delft and works at the intersection of large language models and developer tooling. Roham is driven by a core question: how can we build AI tools that truly support developers rather than distract them?
+
+His work spans theory, experiment, and system-building; from modeling developer behavior and integrating AI into IDE workflows to empirically measuring trust, calibration, and usefulness in human–AI collaboration. He has collaborated across academia and industry (TU Delft, JetBrains Research, and others) to translate research insights into developer-facing tools and publications.
+
+Looking ahead, Roham aims to pursue a PhD to advance the scientific foundations and real-world impact of AI-augmented software development while maintaining a strong engineering mindset.

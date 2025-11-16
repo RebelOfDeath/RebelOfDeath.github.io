@@ -19,9 +19,9 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
       headings:
-        about: ''
-        education: ''
-        interests: ''
+        about: 'About Me'
+        education: 'Education'
+        interests: 'Research Interests'
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
@@ -31,28 +31,16 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'Professional Statement'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I specialize in Artificial Intelligence for Software Engineering (AI4SE): applying ML and large language models to improve how software is written, reviewed, maintained, and evolved. My work spans theory, experiment, and system-building; including, but not limited to, modelling developer behaviors and integrating AI into IDE workflows to empirically measuring trust, calibration, and usefulness in human–AI collaboration.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        I collaborate across academia and industry (TU Delft, JetBrains Research, and others) to translate research insights into developer‑facing tools and publications. Looking ahead, I aim to pursue a PhD to advance calibrated, trustworthy, and impactful AI‑augmented software development. If you’re interested in collaborating on LLMs‑for‑Code, developer–AI interaction, or agentic systems, feel free to get in touch.
     design:
       columns: '1'
   - block: collection
     id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
     content:
       title: Recent Publications
       text: ''
@@ -62,44 +50,7 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+  
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

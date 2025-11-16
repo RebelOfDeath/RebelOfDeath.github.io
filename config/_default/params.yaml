@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: system
-  color: indigo
+  mode: dark
+  color: cyan
 
 # SEO
 marketing:
@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Roham Koohestani — Software Engineer and AI4SE researcher. Works on LLMs for code, developer–AI interaction, calibration/trust, and agentic systems. Based in The Hague and studying at TU Delft.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,7 +35,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: 'Your Name'
+      text: 'Roham Koohestani'
 
 # Site footer
 footer:
